@@ -2,10 +2,11 @@ def add(a, b):
     c = a + b
     d = a * b
     e = c * d
-    f = a * b * e
+    f = a * b * e - c * d
     return f
 
 
+# 给这段代码添加一个新的注释
 x = 10
 y = 20
 z1 = x + y
